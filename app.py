@@ -6,7 +6,7 @@ st.write('enter the number to calculate the square , cube and fith power')
 
 n = st.number_input("Enter the number: " , value=1 , step=1) 
 
-
+## 
 square = n**2
 cube = n**3 
 fith_power = n**5 
