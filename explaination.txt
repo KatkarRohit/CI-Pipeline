@@ -1,0 +1,5 @@
+##  To see how CI is integrated in large project so we do for small app 
+
+1. app.py ==> we build small app using streamlit and based on it we create CI which do build and test 
+2. must create folder for github ci : ".github/workflows"   
+    - here we created ci.yaml file which is only steps how complete setup and what and how to execute is all logic here.
