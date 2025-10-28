@@ -3,3 +3,17 @@
 1. app.py ==> we build small app using streamlit and based on it we create CI which do build and test 
 2. must create folder for github ci : ".github/workflows"   
     - here we created ci.yaml file which is only steps how complete setup and what and how to execute is all logic here.
+
+
+CI Defination : continuous integration is software development practice where developer regularly merge 
+their code changes into a shared repsitory, usually multiple times a day. Each merge triggers the automated process
+to build and test the code, ensuring that new changes integrate smoothly with existing codebase. 
+
+
+
+**WHY IT IS NEEDED**
+
+* **Early Detection of Errors:** By integrating regularly, developers can detect and fix integration issues early, preventing them from escalating into larger problems.
+* **Automation of Testing:** CI automates the testing process, ensuring that code quality remains high and that any bugs are caught early.
+* **Faster Development Cycles:** CI allows for faster iterations by providing quick feedback to developers, leading to more agile and efficient development processes.
+* **Reduced Integration Problems:** Regular integration reduces the complexity and time spent on integrating code at later stages.
